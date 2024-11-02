@@ -10,4 +10,6 @@ package operacija;
  */
 public class Operacije {
 
+    public static final int POKRENI_IGRU = 1;
+    public static final int POGODI_SLOVO = 2;
 }
