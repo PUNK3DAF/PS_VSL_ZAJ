@@ -13,22 +13,22 @@ import java.util.Objects;
  */
 public class Slovo implements Serializable {
 
-    private String karakter;
+    private char karakter;
     private int pozicija;
 
     public Slovo() {
     }
 
-    public Slovo(String karakter, int pozicija) {
+    public Slovo(char karakter, int pozicija) {
         this.karakter = karakter;
         this.pozicija = pozicija;
     }
 
-    public String getKarakter() {
+    public char getKarakter() {
         return karakter;
     }
 
-    public void setKarakter(String karakter) {
+    public void setKarakter(char karakter) {
         this.karakter = karakter;
     }
 
